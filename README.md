@@ -10,8 +10,10 @@ Base técnica común del curso (Grupo 6). Es el paquete sobre el que se apoyan l
 Los lineamientos técnicos (stack, estructura, contenedores, seguridad y pruebas) están en el documento
 **DAS — Desarrollo de Microservicios** del curso.
 
-> **Estado:** todavía no hay código. El servicio parte desde la plantilla base del curso
-> ([#1](https://github.com/tinioviedo/base-tecnica/issues/1)).
+> **Estado:** esqueleto del Hito 0 importado desde el repo de Jordán
+> ([Jordanariash/ejecu-microservicio-BT-grupo6](https://github.com/Jordanariash/ejecu-microservicio-BT-grupo6)),
+> con la estructura publicada en el classroom. Todavía falta código para que el pipeline pase
+> ([#1](https://github.com/tinioviedo/base-tecnica/issues/1), [#5](https://github.com/tinioviedo/base-tecnica/issues/5)).
 
 ## Hitos
 
@@ -51,7 +53,7 @@ Cada servicio usa los puertos locales `51N0` (web) y `51N1` (api) según su núm
 
 ## Por definir con el jefe de proyecto
 
-- [ ] Dónde está la plantilla base y si la construye este grupo
 - [ ] Organización de GitHub del curso (`<org>` para GHCR y GitHub Packages)
 - [ ] Número N del servicio
-- [ ] Proyecto SonarQube, token y URL ([#6](https://github.com/tinioviedo/base-tecnica/issues/6))
+- [ ] URL de la instancia SonarQube del curso (`SONAR_HOST_URL`); la clave del proyecto es
+  `base-tecnica-grupo6` ([#6](https://github.com/tinioviedo/base-tecnica/issues/6))
